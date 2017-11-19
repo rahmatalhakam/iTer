@@ -54,7 +54,6 @@ public class LoginView extends JFrame{
         panelTengah.add(jtPass);
         panelBawah.add(jbLogin);
         panelBawah.add(jbRegister);
-        
     }
     
     
