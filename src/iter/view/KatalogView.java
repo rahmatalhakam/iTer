@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package iter.view;
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -60,7 +59,7 @@ public class KatalogView extends JFrame{
         jbPilih4 = new JButton(pilihan);
         jbPilih5 = new JButton(pilihan);
         
-        jlGambar1 = new JLabel (new ImageIcon(getClass().getResource(("kamusku.png")), "Kamus1"));
+        jlGambar1 = new JLabel (new ImageIcon(getClass().getResource(("../src/kamusku_1.png")), "Kamus1"));
         jlGambar2 = new JLabel (new ImageIcon(getClass().getResource(("kamusku.png"))));
         jlGambar3 = new JLabel (new ImageIcon(getClass().getResource(("kamusku.png"))));
         jlGambar4 = new JLabel (new ImageIcon(getClass().getResource(("kamusku.png"))));
